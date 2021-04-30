@@ -36,6 +36,7 @@ TO USE:
 
 
 EXAMPLE:
+
 ![Screen Shot 2021-04-30 at 7 07 42 PM](https://user-images.githubusercontent.com/61470389/116762078-58f62d00-a9e7-11eb-98a3-cb55c0eee3cc.png)
 
 ![Screen Shot 2021-04-30 at 7 09 22 PM](https://user-images.githubusercontent.com/61470389/116762164-95298d80-a9e7-11eb-9760-09c9178fa5a4.png)
@@ -53,9 +54,11 @@ DISCUSSION OF RESULTS:
     - Textured content image + textured style → high similarity (more successful) →  Van Gogh
     - Smooth/gradient background + smooth style → high similarity (more successful) → Harrington and O’Keefe
     - Mismatches in background + style texture→ low similarity (less successful)
+
     Using the greyscale content and greyscale style comparisons, our methods capture texture through contour comparisons in MSE and SSIM error values. 
     In the Van Gogh style, which had a more consistent pattern and texture, the best matches were images that had green and grey backgrounds, albeit ones with
-    texture (leaves, shapes, etc), rather than a smooth gradient like Harrington and O’Keeffe. This shows the algorithm, as well as our method for measuring 
+    texture (leaves, shapes, etc), rather than a smooth gradient like Harrington and O’Keeffe. 
+    This shows the algorithm, as well as our method for measuring 
     similarity, is more successful (in terms of transferring style while also maintaining the content) on similar textured backgrounds to the style of the image. 
 
 - Limitations:
