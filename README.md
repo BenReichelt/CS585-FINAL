@@ -37,15 +37,16 @@ TO USE:
 
 EXAMPLE:
 
-![Screen Shot 2021-04-30 at 7 07 42 PM](https://user-images.githubusercontent.com/61470389/116762078-58f62d00-a9e7-11eb-98a3-cb55c0eee3cc.png)
-
 ![Screen Shot 2021-04-30 at 7 09 22 PM](https://user-images.githubusercontent.com/61470389/116762164-95298d80-a9e7-11eb-9760-09c9178fa5a4.png)
+
+![Screen Shot 2021-04-30 at 7 07 42 PM](https://user-images.githubusercontent.com/61470389/116762078-58f62d00-a9e7-11eb-98a3-cb55c0eee3cc.png)
 
 DISCUSSION OF RESULTS:
 - COLOR : 
     - White and dark/black backgrounds → lowest similarity (less successful)
     - Green and grey backgrounds → highest similarity (more successful)
     - Color similarities are captured in the our measurement of color content and color style comparisons in MSE and SSIM error values. 
+    
     These similarity averages result in green and grey background content images having the highest similarity to the output image when given colorful style images,
     whose colors also average to mid range RGB values (like green and lighter grey). The least similar scores being found on content images with white backgrounds 
     or large sections of black in backgrounds also makes sense, as these averages are at the furthest end of the range of color values at 0 and 255. 
