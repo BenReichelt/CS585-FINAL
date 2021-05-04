@@ -25,7 +25,7 @@ CODE DESCRIPTION:
 
 - Finally there is a cell containing a loop to facilitate running styleDriver on a set of content URLs
   - This prints out a picture of the content image, the style image, and the stylized output image
-  - Below the avg MSE and SSIM for this style transfer is printed.
+  - Below the avg MSE and SSIM for this style transfer is printed as MAVG and SAVG respectively.
 
 TO USE:
 1. Upload ipynb to google COLAB.
