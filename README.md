@@ -6,13 +6,14 @@ The algorithm blends them together so the output image looks like the content im
 
 CODE DESCRIPTION: 
 - This code first imports necessary packages and defines helper functions to crop and center input images so that the style transfer algorithm can be properly run on them. 
-- Then the MSE and SSIM algorithm functions are defined, as well as the TensorFlow hub module. 
 
-- Then we define our arrays of content image URLs, all organized into different classifications to be used for later testing.
+- We then have a cell where the MSE and SSIM algorithm functions are defined, as well as the TensorFlow hub module. 
 
-- Then there is a image tester to make sure both URLs are able to have their corresponding image load correctly.
+- Next we define our arrays of content image URLs, all organized into different classifications to be used for later testing.
 
-- Then a function called styleDriver that is essentially the function that pulls all of the other parts of the code together, and actually runs the style transfer algorithm. 
+- The next cell is a image tester to make sure both URLs are able to have their corresponding image load correctly.
+
+- A function called styleDriver that is essentially the function that pulls all of the other parts of the code together, and actually runs the style transfer algorithm. 
 
 - styleDriver runs the style transfer on the given images, and does 4 combinations of MSE and SSIM calculations,
   -  grayscale content vs. stylized output
